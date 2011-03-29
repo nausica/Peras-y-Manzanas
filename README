@@ -1,0 +1,15 @@
+MongoDB
+
+$ wget http://downloads.mongodb.org/osx/mongodb-osx-x86_64-1.4.2tgz
+$ tar -xf mongodb-osx-x86_64-1.4.2.tgz
+$ sudo mkdir -p /data/db
+
+sonia-fabres-macbook-pro-2:~ soniafabre$ sudo mongodb-osx-x86_64-1.4.2/bin/mongod
+mongodb-osx-x86_64-1.4.2/bin/mongod --help for help and startup options
+Tue Mar 29 11:45:59 Mongo DB : starting : pid = 8708 port = 27017 dbpath = /data/db/ master = 0 slave = 0  64-bit 
+Tue Mar 29 11:45:59 db version v1.4.2, pdfile version 4.5
+Tue Mar 29 11:45:59 git version: 53749fc2d547a3139fcf169d84d58442778ea4b0
+Tue Mar 29 11:45:59 sys info: Darwin erh2.10gen.cc 9.6.0 Darwin Kernel Version 9.6.0: Mon Nov 24 17:37:00 PST 2008; root:xnu-1228.9.59~1/RELEASE_I386 i386 BOOST_LIB_VERSION=1_37
+Tue Mar 29 11:45:59 waiting for connections on port 27017
+Tue Mar 29 11:45:59 web admin interface listening on port 28017
+
