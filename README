@@ -13,3 +13,23 @@ Tue Mar 29 11:45:59 sys info: Darwin erh2.10gen.cc 9.6.0 Darwin Kernel Version 9
 Tue Mar 29 11:45:59 waiting for connections on port 27017
 Tue Mar 29 11:45:59 web admin interface listening on port 28017
 
+
+Translation with Google
+http://code.google.com/apis/language/translate/v1/getting_started.html
+
+
+
+1. Main Page = http://www.euroresidentes.com/Recetas/Recetas.htm
+2. Collect categories links:
+* Ensaladas: Recetas/cocina_vegetariana/ensaladas/ensaladas.index.htm
+* Cocina Vegetariana: http://www.euroresidentes.com/Recetas/cocina_vegetariana/
+...
+3. Collect recipes
+4. Collect ingredients
+
+MainLink
+CategoryLink
+RecipeLink
+
+Deployment
+http://docs.duostack.com/node/introduction
